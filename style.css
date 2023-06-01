@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Neue Haas Grotesk Text Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    /* stroke: #fff !important; */
+    fill: #fff !important;
+}
+
+svg{
+    width:50px;
+    height:50px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    height: 100vh;
+    width: 100vw;
+    /* background: #000; */
+    background-image: url(./assets/images/momentumbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2%;
+}
+ul{
+    list-style-type: none;
+}
+
+.navigation>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-left{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.search-icon{
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.nav-right{
+    display: flex;
+    flex-flow: column nowrap;
+    /* gap: 6px; */
+    /* align-items: center; */
+    text-align: right;
+}
+
+.nav-right p{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.temp-weather{
+    display: flex;
+    gap: 6px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.clouds-icon{
+    width: 35px;
+    height: 35px;
+}
+.sup{
+    font-size: 14px;
+}
+.temp-weather h2{
+    font-size: 34px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.main-section{
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-self: flex-end;
+    justify-content: center;
+    justify-items: flex-end;
+    align-self: flex-end;
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+}
+.main-section>*{
+    font-weight: 500;
+}
+.time{
+    font-size: 1050%;
+}
+
+.greet{
+    font-size: 310%;
+}
+.question{
+    font-size: 180%;
+}
+.response{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+}
+.myinput{
+    width: 450px;
+    background: none;
+    border: none;
+    font-size: 180%;
+    outline: none;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+
+.footer>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex: 0.1;
+}
+.footer-left>svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer-mid{
+    justify-self: center;
+    text-align: center;
+    /* flex: 1; */
+}
+.footer-right{
+    /* float: right; */
+    flex: 0.1;
+    justify-self: flex-end;
+}
